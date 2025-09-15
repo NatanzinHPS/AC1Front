@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ApoliceSeguro {
   nome: string = '';
-  sexo: string = 'M'; // M = Masculino, F = Feminino
+  sexo: string = 'M'; 
   idade: number = 0;
   valorAutomovel: number = 0;
 
