@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Calcular Média</h2>
+
+  <label>AC1:</label>
+  <input type="number" [(ngModel)]="ac1">
+
+  <label>AC2:</label>
+  <input type="number" [(ngModel)]="ac2">
+
+  <label>AG:</label>
+  <input type="number" [(ngModel)]="ag">
+
+  <label>AF:</label>
+  <input type="number" [(ngModel)]="af">
+
+  <button (click)="calcularMedia()">Calcular</button>
+
+    <p>Média Final: {{ mediaFinal }}</p>
+    <p>Resultado: {{ resultado }}</p>    
+  
+</div>
